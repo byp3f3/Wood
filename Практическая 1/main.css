@@ -1,0 +1,94 @@
+
+.container {
+height: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+a {
+    color: rgb(52, 32, 2);
+    text-decoration: none;
+    padding: 10px;
+}
+header {
+    padding: 20px;
+    background-color: rgb(211, 170, 120); 
+}
+body{ margin: 0px;
+    background-color: rgb(253, 225, 187);
+}
+.slider {
+    background-color: rgb(255,235,210);
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+padding: 20px;
+margin: 20px;
+}
+.products{ padding-left: 20px;}
+.cards_list {
+    display:inline-flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 0px;
+    padding-inline: 60px;
+    width: 360px;
+}
+.contacts{
+    display: inline-flex;
+    justify-content:space-between;
+    flex-wrap: wrap; 
+    padding-inline: 20px;
+}
+.address-container{
+    padding: 20px;
+    background-color: rgb(211, 170, 120); 
+    style="color: rgb(52, 32, 2)"
+}
+.address-cont{ padding: 20px;}
+
+.add{background-color: rgb(255,235,210);
+padding: 20px;
+padding-top: 10px;}
+button{
+background-color:rgb(211, 170, 120) ;
+height: 40px;
+width: 100px
+box-sizing: border-box;
+border-radius: 15px;}
+
+.ready {
+padding-left: 20px;
+}
+.ready_list {
+    display:inline-flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 0px;
+    padding-inline: 20px;
+    width: 250px;
+    height: 300;
+}
+.ready_cost 
+{   display: inline;
+    justify-content:space-between;
+    flex-wrap: wrap; 
+}
+
+    .made_list {
+        display:inline-flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+        padding-top: 0px;
+        padding-inline: 20px;
+        width: 250px;
+        height: 300;
+    }
